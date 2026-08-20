@@ -1,37 +1,53 @@
-# Laboratory 2: Build the Cloud Infrastructure Blueprint
+# ☁️ Laboratory 02: Build the Cloud Infrastructure Blueprint
 
-## Mission Overview
-Investigated the components of cloud infrastructure using a Linux environment, evaluated foundational cloud resources, compared major cloud providers (AWS, Azure, GCP), and designed an initial cloud architecture blueprint.
+> **Course:** CCM101 - Cloud Computing  
+> **Institution:** University of Eastern Pangasinan — College of Information Technology  
+> **Student:** Christopher Sean Gutierrez  
+> **Repository:** [CCM101-cgutierrez](https://github.com/christopherseangutierrez-boop/CCM101-cgutierrez)  
 
-## Objectives
-* Explain major components of cloud infrastructure.
-* Investigate hardware and software resources in a Linux environment.
-* Differentiate compute, storage, networking, and identity resources.
-* Compare services across AWS, Azure, and GCP.
-* Create technical documentation using Markdown.
+---
 
-## Cloud Infrastructure Components
-* **Compute:** Intel Xeon CPU (1 core), 1.9 GiB RAM
-* **Storage:** 19 GB Virtual Disk (`/dev/vda1`)
-* **Networking:** IP addresses `172.30.1.2` / `172.17.0.1`
-* **OS:** Ubuntu 24.04.4 LTS (Kernel 6.8.0-138-generic)
+## 📌 Executive Summary
 
-## Tools Used
-* KillerCoda Playground (Ubuntu Linux Environment)
-* Git & GitHub
-* Diagramming Tool (Excalidraw / Draw.io)
+This laboratory assignment focuses on inspecting core cloud infrastructure primitives using a Linux environment (KillerCoda). It covers evaluating hardware/software specifications, mapping kernel-level primitives to public cloud services, conducting a comparative analysis of top public cloud vendors (**AWS**, **Microsoft Azure**, **Google Cloud Platform**), and designing an architectural blueprint for cloud deployment.
 
-## Linux Commands Executed
-* `uname -r`, `cat /etc/os-release`
-* `lscpu | grep -E "Model name|CPU\(s\):"`
-* `free -h`, `df -h /`
-* `hostname`, `hostname -I`
+---
 
-## Skills Learned
-* Shell inspection of system resources.
-* Mapping physical/virtual Linux primitives to cloud services.
-* Service equivalency mapping across AWS, Azure, and GCP.
+## 🎯 Mission Objectives
 
-## Challenges Encountered
-* Managing root vs. non-root file ownership and Git safe directory configurations.
-* Synchronizing local terminal changes with remote GitHub commits after web updates.
+- [x] **System Inspection:** Investigate virtualized hardware and OS metrics in a cloud server environment.
+- [x] **Primitive Mapping:** Differentiate and categorize Compute, Storage, Networking, and OS components.
+- [x] **Vendor Evaluation:** Conduct comparative analysis of core offerings across AWS, Azure, and GCP.
+- [x] **Blueprint Design:** Draw and document a complete multi-tier cloud infrastructure architecture.
+- [x] **Technical Documentation:** Publish professional Markdown technical reports in GitHub.
+
+---
+
+## 🛠️ Infrastructure Overview & Specifications
+
+| Component | Detected Specification | Hardware / Kernel Context |
+| :--- | :--- | :--- |
+| **Operating System** | `Ubuntu 24.04.4 LTS` | Linux Kernel `6.8.0-138-generic` |
+| **Compute Engine** | `Intel Xeon E312xx` | 1 vCPU @ 2.00GHz, 1.9 GiB RAM |
+| **Storage Subsystem** | `19 GB` Virtual Block Disk | Mount point `/dev/vda1` on `/` |
+| **Network Interface** | Dual Local Subnets | IP Addresses: `172.30.1.2`, `172.17.0.1` |
+
+---
+
+## 🧰 Tools & Technologies Executed
+
+```bash
+# Operating System & Kernel Version Verification
+cat /etc/os-release | grep PRETTY_NAME
+uname -r
+
+# CPU & Memory Inspection
+lscpu | grep -E "Model name|CPU\(s\):"
+free -h
+
+# Storage & File System Analysis
+df -h /
+
+# Hostname & Network Identity
+hostname
+hostname -I

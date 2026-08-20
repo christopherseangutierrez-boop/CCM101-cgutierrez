@@ -1,21 +1,35 @@
-# Identification of Cloud Infrastructure Components
+# 🧩 Identification of Cloud Infrastructure Components
 
-## 1. Compute Resources
-* **Purpose:** Process instructions, run application code, and handle active computational tasks.
-* **Importance in Cloud Computing:** Compute resources form the primary engine of cloud services, allowing applications to execute dynamically without physical hardware constraints.
-* **Linux Environment Context:** Represented by the virtual CPU (`Intel Xeon E312xx`) and system memory (1.9 GiB RAM) managed by the Linux kernel.
+This report maps observed Linux system components to cloud infrastructure primitives.
 
-## 2. Storage Resources
-* **Purpose:** Retain persistent data, configuration files, operating system files, and media.
-* **Importance in Cloud Computing:** Ensures data durability, backup retention, and availability across distributed system instances.
-* **Linux Environment Context:** Represented by the virtual block device `/dev/vda1` mounted at root (`/`) providing 19 GB of total disk space.
+---
 
-## 3. Networking Resources
-* **Purpose:** Facilitate communication, routing, and data transfer between systems, services, and external networks.
-* **Importance in Cloud Computing:** Enables secure cloud connectivity, load balancing, resource isolation, and internet access.
-* **Linux Environment Context:** Represented by the network interfaces configured with local IP addresses (`172.30.1.2` and `172.17.0.1`) and hostname resolution.
+### 🖥️ 1. Compute Resources
 
-## 4. Operating System
-* **Purpose:** Manage system hardware resources, host process execution, and provide standard system tools/libraries.
-* **Importance in Cloud Computing:** Acts as the foundation layer (IaaS/PaaS) hosting containers, virtual machines, and cloud services.
-* **Linux Environment Context:** Represented by `Ubuntu 24.04.4 LTS` running Linux Kernel `6.8.0-138-generic`.
+- **Technical Purpose:** Compute resources handle instruction processing, application execution, and mathematical operations.
+- **Importance in Cloud Computing:** Forms the processing backbone of cloud computing. Enables scalable execution of workloads through Elastic Virtual Machines or Containers.
+- **Linux Environment Context:** Represented by the virtualized **Intel Xeon E312xx vCPU** and **1.9 GiB System RAM** managed via kernel scheduling routines.
+
+---
+
+### 💾 2. Storage Resources
+
+- **Technical Purpose:** Retains persistent state, binary applications, dynamic logs, and database records.
+- **Importance in Cloud Computing:** Guarantees data durability, high availability, snapshot capability, and automated disaster recovery across redundant data centers.
+- **Linux Environment Context:** Represented by the virtualized block device `/dev/vda1` providing **19 GB of total capacity** mounted to the root file system `/`.
+
+---
+
+### 🌐 3. Networking Resources
+
+- **Technical Purpose:** Facilitates packet routing, protocol translation, traffic isolation, and API exposure.
+- **Importance in Cloud Computing:** Defines network security perimeters (VPC/VNets), manages inbound/outbound load balancing, and connects cloud instances securely to internet gateways.
+- **Linux Environment Context:** Represented by network interface controllers configured with private IP interfaces (`172.30.1.2` and `172.17.0.1`).
+
+---
+
+### 🐧 4. Operating System Layer
+
+- **Technical Purpose:** Manages underlying physical hardware abstractions, memory allocation, process scheduling, and security permissions.
+- **Importance in Cloud Computing:** Acts as the base operating environment (IaaS level) or container host system required to launch cloud services and business application stacks.
+- **Linux Environment Context:** Represented by **Ubuntu 24.04.4 LTS** powered by **Linux Kernel 6.8.0-138-generic**.
