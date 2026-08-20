@@ -2,7 +2,7 @@
 
 > **Course:** CCM101 - Cloud Computing  
 > **Institution:** University of Eastern Pangasinan — College of Information Technology  
-> **Student:** Christopher Sean Gutierrez  
+> **Student:** Christopher Sean O. Gutierrez  
 > **Repository:** [CCM101-cgutierrez](https://github.com/christopherseangutierrez-boop/CCM101-cgutierrez)  
 
 ---
