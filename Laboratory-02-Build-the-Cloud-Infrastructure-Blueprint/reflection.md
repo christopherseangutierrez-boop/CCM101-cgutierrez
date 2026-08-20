@@ -1,6 +1,6 @@
 # 💬 Mission 02 Reflection & Critical Evaluation
 
-> **Author:** Christopher Sean Gutierrez  
+> **Author:** Christopher Sean O. Gutierrez  
 > **Context:** Post-assessment summary for Laboratory 02  
 
 ---
