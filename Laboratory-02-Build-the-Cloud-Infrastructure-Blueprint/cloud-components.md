@@ -2,7 +2,7 @@
 
 This report maps observed Linux system components to cloud infrastructure primitives.
 
----
+--- 
 
 ### 🖥️ 1. Compute Resources
 
