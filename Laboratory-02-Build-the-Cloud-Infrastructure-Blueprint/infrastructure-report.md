@@ -1,5 +1,5 @@
 # 📊 Cloud Infrastructure Assessment Report
-
+ 
 > **Target Environment:** KillerCoda Cloud Sandbox  
 > **Assigned Engineer:** Christopher Sean  Gutierrez  
 > **Status:** `VERIFIED`  
