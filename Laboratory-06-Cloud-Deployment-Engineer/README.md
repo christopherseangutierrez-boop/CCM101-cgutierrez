@@ -8,16 +8,16 @@
 ---
 
 ## 📌 Mission Overview
-This mission explores Infrastructure as Code (IaC) principles by transitioning from manual container deployments to multi-tier orchestration using Docker Compose. Acting as a Cloud Deployment Engineer at CloudNova Technologies, this laboratory covers deploying a secure, self-hosted private cloud storage system (Nextcloud) backed by a relational database (MariaDB)[cite: 10, 11].
+This mission explores Infrastructure as Code (IaC) principles by transitioning from manual container deployments to multi-tier orchestration using Docker Compose. Acting as a Cloud Deployment Engineer at CloudNova Technologies, this laboratory covers deploying a secure, self-hosted private cloud storage system (Nextcloud) backed by a relational database (MariaDB).
 
 ---
 
 ## 🎯 Objectives
-* Explain multi-tier application architectures and container tier separation[cite: 9, 10].
-* Author structured YAML configuration files using CLI text editors[cite: 10, 11].
-* Orchestrate multi-container application stacks using Docker Compose[cite: 10, 11].
-* Route browser traffic to containerized web interfaces[cite: 12, 13].
-* Document Infrastructure as Code practices using professional Markdown[cite: 10, 13].
+* Explain multi-tier application architectures and container tier separation.
+* Author structured YAML configuration files using CLI text editors.
+* Orchestrate multi-container application stacks using Docker Compose.
+* Route browser traffic to containerized web interfaces.
+* Document Infrastructure as Code practices using professional Markdown.
 
 ---
 
