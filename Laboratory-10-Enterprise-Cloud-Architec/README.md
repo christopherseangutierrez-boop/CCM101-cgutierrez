@@ -10,7 +10,7 @@
 
 ## 2. Directory Structure
 ```text
-CCM101-rvidal/
+CCM101-cgutierrez/
 └── Laboratory-10-Enterprise-Cloud-Architec/
     ├── docker-compose.yml
     ├── .env
